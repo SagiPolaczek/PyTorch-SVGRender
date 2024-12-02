@@ -14,7 +14,7 @@ from diffusers.utils import is_torch_version, is_xformers_available
 
 DiffusersModels = OrderedDict({
     "sd14": "CompVis/stable-diffusion-v1-4",  # resolution: 512
-    "sd15": "runwayml/stable-diffusion-v1-5",  # resolution: 512
+    "sd15": "stable-diffusion-v1-5/stable-diffusion-v1-5",  # resolution: 512
     "sd21b": "stabilityai/stable-diffusion-2-1-base",  # resolution: 512
     "sd21": "stabilityai/stable-diffusion-2-1",  # resolution: 768
     "sdxl": "stabilityai/stable-diffusion-xl-base-1.0",  # resolution: 1024
